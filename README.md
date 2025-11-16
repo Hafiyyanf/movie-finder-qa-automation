@@ -13,7 +13,7 @@ Pengujian mencakup test cases, automation testing, serta dokumentasi bug dan rek
 
 Dokumen test case lengkap ada pada folder:
 
-[Test Case](docs/TEST_CASES_MOVIE_FINDER.xlsx)
+[Test Case](Docs/TEST_CASES_MOVIE_FINDER.xlsx)
 
 Test case mencakup:
 
@@ -97,7 +97,7 @@ Termasuk:
 
 - Dokumen bug report dapat ditemukan di:
 
- [Bug Reports](docs/Bug_Reports.md)
+ [Bug Reports](Docs/Bug_Reports.md)
 
 Format memuat:
 - Title
@@ -118,7 +118,7 @@ Format memuat:
 
 Rekomendasi untuk meningkatkan user experience ada pada:
 
-[UX Recommendations](docs/UX_Recommendations.md)
+[UX Recommendations](Docs/UX_Recommendations.md)
 
 ---
 
