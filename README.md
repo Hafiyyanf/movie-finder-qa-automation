@@ -3,7 +3,6 @@
 Project ini dibuat sebagai bagian dari QA Technical Test untuk menguji fitur–fitur pada website AI-powered Movie Finder, termasuk:
 - Login
 - AI Search (prompt-based movie recommendation)
-- Movie Detail
 - Search History
 
 Pengujian mencakup test cases, automation testing, serta dokumentasi bug dan rekomendasi user experience.
