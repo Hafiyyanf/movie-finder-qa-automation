@@ -49,7 +49,7 @@ Semua script ada di (tests/).
 sebelum menjalankan testnya, perlu dilakukan installation & setup terlebih dahulu sebagai berikut:
 
 **1️. Clone Repository**
-<pre> ```git clone https://github.com/USERNAME/movie-finder-qa-automation.git
+<pre> ```bash git clone https://github.com/USERNAME/movie-finder-qa-automation.git
 cd movie-finder-qa-automation``` </pre>
 
 **2️. Install Dependencies**
