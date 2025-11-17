@@ -54,9 +54,12 @@ cd movie-finder-qa-automation
 
 
 **2️. Install Dependencies**
+```bash
 npm install
 
+
 **3️. Install Playwright Browsers**
+```bash
 npx playwright install
 
 ---
@@ -65,18 +68,23 @@ npx playwright install
 Berikut cara untuk menjalankan testnya:
 
 **-Run all tests**
+```bash
 npx playwright test
 
 **-Run specific folder**
+```bash
 npx playwright test tests/auth
 
 **-Run a specific test file**
+```bash
 npx playwright test login.spec.js
 
 **-Run with UI (debug mode)**
+```bash
 npx playwright test --ui
 
 **-Show latest HTML report**
+```bash
 npx playwright show-report
 
 ---
