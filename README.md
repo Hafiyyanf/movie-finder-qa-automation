@@ -40,7 +40,7 @@ Test case mencakup:
 
 Automasi menggunakan Playwright + JavaScript, sama seperti test case.
 
-Semua script ada di Folder tests. [Buka Folder tests](tests/)
+Semua script ada di Folder tests [Buka Folder tests](tests/)
 .
 
 ---
