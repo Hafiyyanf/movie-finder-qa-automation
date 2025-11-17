@@ -80,7 +80,7 @@ npx playwright test tests/auth
 
 **-Run a specific test file**
 ```bash
-npx playwright test login.spec.js
+npx playwright test Login.spec.js
 ```
 
 **-Run with UI (debug mode)**
