@@ -27,7 +27,7 @@ Ketika user sudah melakukan searching, dan sudah muncul cards-cards filmnya, lal
 - Muncul informasi lebih detail dari filmnya.
 
 **Evidence:**  
--
+- Link Evidance: https://jam.dev/c/66007404-464e-4e61-aa71-5e42f2abc87c
 
 ## Bug-002 – AI Search: Cards yang muncul bukan judul film atau AI Respon ambigu
 **Area:** AI Search  
@@ -51,7 +51,6 @@ Ketika user sudah melakukan searching test case yang digunakan adalah "cara mema
 - Cards yang muncul harusnya hanya film.
 
 **Evidence:**  
--
 
 ## Bug-003 – Profile: Profile tidak bisa di klik
 **Area:** Profile  
@@ -72,4 +71,4 @@ Ketika user klik profile yang berada diatas kanan, tidak ada respon apa-apa
 - Masuk ke page profile.
 
 **Evidence:**  
--
+- Link Evidance https://jam.dev/c/f7f49665-5f3b-47cc-be5a-589297b8f4fa
