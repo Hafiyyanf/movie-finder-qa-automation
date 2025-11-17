@@ -68,27 +68,27 @@ npx playwright install
 ## Running the Tests
 Berikut cara untuk menjalankan testnya:
 
-**-Run all tests**
+### Run all tests
 ```bash
 npx playwright test
 ```
 
-**-Run specific folder**
+### Run specific folder
 ```bash
 npx playwright test tests/auth
 ```
 
-**-Run a specific test file**
+### Run a specific test file
 ```bash
 npx playwright test Login.spec.js
 ```
 
-**-Run with UI (debug mode)**
+### Run with UI (debug mode)
 ```bash
 npx playwright test --ui
 ```
 
-**-Show latest HTML report**
+### Show latest HTML report
 ```bash
 npx playwright show-report
 ```
