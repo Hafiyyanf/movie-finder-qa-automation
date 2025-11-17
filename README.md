@@ -47,21 +47,22 @@ Semua script ada di (tests/).
 ## Installation & Setup
 sebelum menjalankan testnya, perlu dilakukan installation & setup terlebih dahulu sebagai berikut:
 
-**1️. Clone Repository**
+### 1. Clone Repository
 ```bash
 git clone https://github.com/USERNAME/movie-finder-qa-automation.git
 cd movie-finder-qa-automation
+```
 
 
-**2️. Install Dependencies**
+### 2️. Install Dependencies**
 ```bash
 npm install
+```
 
-
-**3️. Install Playwright Browsers**
+### 3️. Install Playwright Browsers**
 ```bash
 npx playwright install
-
+```
 ---
 
 ## Running the Tests
@@ -70,22 +71,27 @@ Berikut cara untuk menjalankan testnya:
 **-Run all tests**
 ```bash
 npx playwright test
+```
 
 **-Run specific folder**
 ```bash
 npx playwright test tests/auth
+```
 
 **-Run a specific test file**
 ```bash
 npx playwright test login.spec.js
+```
 
 **-Run with UI (debug mode)**
 ```bash
 npx playwright test --ui
+```
 
 **-Show latest HTML report**
 ```bash
 npx playwright show-report
+```
 
 ---
 
