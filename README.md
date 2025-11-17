@@ -3,7 +3,6 @@
 Project ini dibuat sebagai bagian dari QA Technical Test untuk menguji fitur–fitur pada website AI-powered Movie Finder, termasuk:
 - Login
 - AI Search (prompt-based movie recommendation)
-- Movie Detail
 - Search History
 
 Pengujian mencakup test cases, automation testing, serta dokumentasi bug dan rekomendasi user experience.
@@ -41,42 +40,59 @@ Test case mencakup:
 
 Automasi menggunakan Playwright + JavaScript, sama seperti test case.
 
-Semua script ada di (tests/).
+Semua script ada di Folder tests [Buka Folder tests](tests/)
+.
 
 ---
 
 ## Installation & Setup
 sebelum menjalankan testnya, perlu dilakukan installation & setup terlebih dahulu sebagai berikut:
 
-**1️. Clone Repository**
+### 1. Clone Repository
+```bash
 git clone https://github.com/USERNAME/movie-finder-qa-automation.git
 cd movie-finder-qa-automation
+```
 
-**2️. Install Dependencies**
+
+### 2️. Install Dependencies**
+```bash
 npm install
+```
 
-**3️. Install Playwright Browsers**
+### 3️. Install Playwright Browsers**
+```bash
 npx playwright install
-
+```
 ---
 
 ## Running the Tests
 Berikut cara untuk menjalankan testnya:
 
-**-Run all tests**
+### Run all tests
+```bash
 npx playwright test
+```
 
-**-Run specific folder**
+### Run specific folder
+```bash
 npx playwright test tests/auth
+```
 
-**-Run a specific test file**
-npx playwright test login.spec.js
+### Run a specific test file
+```bash
+npx playwright test Login.spec.js
+```
 
-**-Run with UI (debug mode)**
+### Run with UI (debug mode)
+```bash
 npx playwright test --ui
+```
 
-**-Show latest HTML report**
+### Show latest HTML report
+```bash
 npx playwright show-report
+```
 
 ---
 
